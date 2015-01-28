@@ -1,0 +1,22 @@
+<div ng-controller="StudentCtrl" ng-init="listStudents()">
+  <div class="row">
+    <div class="col-md-12">
+      <table class="table-bordered">
+        <tr>
+          <th> id </th>
+          <th> name </th>
+          <th> marks </th>
+          <th> actions </th>
+        </tr>
+        <tr ng-repeat="student in students">
+          <td> {{student.id}}</td>
+          <td> {{student.name}}</td>
+          <td> {{student.marks}}</td>
+          <td> <a href="/#/student/edit/{{student.id}}">Edit</a>/ <a ng-click="deleteStudent(student.id)">Delete</a></td>
+        </tr>
+      </table>
+      <a href="/#/add-student">Add New Student</a>
+    </div>
+  </div>
+
+</div>
