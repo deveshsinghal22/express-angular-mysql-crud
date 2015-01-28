@@ -2,9 +2,10 @@
 Steps to run app. 
 This is a very basic CRUD app
 
-1 Run npm install in server folder
-2 Run bower install and npm install in client folder
-3 run npm start in server
-4 run grunt serve in client
-5 import db
-5 run http://localhost:3000/
+1 Run npm install in server<br>
+2 Run bower install and npm install in client<br>
+3 run npm start in server<br>
+4 run grunt serve in client<br>
+5 import my sql db<br>
+6 update the db credentials in server/config/db_connect.js
+7 run http://localhost:3000/
